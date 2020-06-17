@@ -6,4 +6,8 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  background-image: linear-gradient(black, black);
+  background-size: 100% 1px;
+  background-position: left bottom;
+  background-repeat: no-repeat;
 }
