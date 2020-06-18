@@ -1,7 +1,6 @@
 @import url('./__header/root_header.css');
 
 .root {
-  padding: 0 5% 0 5%;
   background-color: #F5F6F7;
   min-width: 320px;
 }

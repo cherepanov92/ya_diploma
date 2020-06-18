@@ -1,13 +1,6 @@
 @import url(./__link/header__link.css);
+@import url(./__nav-block/header__nav-block.css);
 
 .header {
-  position: relative;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  background-image: linear-gradient(black, black);
-  background-size: 100% 1px;
-  background-position: left bottom;
-  background-repeat: no-repeat;
+  background-size: cover;
 }

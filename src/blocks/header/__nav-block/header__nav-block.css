@@ -1,2 +1,8 @@
 .header__nav-block {
+  padding: 16px 5% 16px 5%;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
