@@ -1,0 +1,5 @@
+.search-result__result-cards {
+  margin: 40px 0 4px 0;
+  display: flex;
+  flex-wrap: wrap;
+}

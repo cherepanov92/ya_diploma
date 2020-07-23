@@ -1,4 +1,6 @@
 @import url('./__header/root_header.css');
+@import url('./__search-result/root__search-result.css');
+@import url('./__author/root__author.css');
 
 .root {
   background-color: #F5F6F7;
