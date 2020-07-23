@@ -1,0 +1,15 @@
+@import "./__copyright/footer__copyright.css";
+@import "./__menu/footer__menu.css";
+@import "./__menu-item/footer__menu-item.css";
+@import "./__link/footer__link.css";
+@import "./__social-container/footer__social-container.css";
+@import "./__social-link/footer__social-link.css";
+@import "./__icon/footer__icon.css";
+
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 16px;
+  flex-wrap: wrap;
+}
