@@ -1,0 +1,7 @@
+@import url('./__input/search-form__input.css');
+@import url('./__submit/search-form__submit.css');
+
+.search-form {
+  display: flex;
+  flex-wrap: wrap;
+}
