@@ -1,4 +1,4 @@
-.search-result__link {
+.content__link {
   margin: 0;
   grid-area: link;
   font-family: Roboto;
@@ -10,12 +10,12 @@
   text-decoration: none;
 }
 
-.search-result__link:after {
+.content__link:after {
   content: url("../../../images/result_link.svg");
 }
 
 @media screen and (min-width: 768px) {
-  .search-result__link {
+  .content__link {
     align-self: center;
     justify-self: end;
     right: 7%;
@@ -24,7 +24,7 @@
 }
 
 @media screen and (min-width: 1440px) {
-  .search-result__link {
+  .content__link {
     align-self: center;
     justify-self: end;
     right: 7%;

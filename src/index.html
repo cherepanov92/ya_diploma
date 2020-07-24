@@ -10,12 +10,12 @@
 </head>
 <body>
   <div class="root">
-    <header class="header root__header">
+    <header class="header root__header header_bg">
       <nav class="nav header__nav-block">
         <a class="nav__link nav__link_main-light" href="#">NewsAnalyzer</a>
         <div class="nav__group">
           <a class="nav__link nav__link_light nav__link_active-light" href="#">Главная</a>
-          <a class="nav__link nav__link_light" href="#">О проекте</a>
+          <a class="nav__link nav__link_light" href="about.html">О проекте</a>
         </div>
       </nav>
       <div class="search header__search">
@@ -27,10 +27,10 @@
         </form>
       </div>
     </header>
-    <div class="search-result root__search-result">
-      <h2 class="search-result__title">Результаты поиска</h2>
-      <a class="search-result__link" href="#">Посмотреть аналитику </a>
-      <div class="search-result__result-cards">
+    <div class="content root__content">
+      <h2 class="content__title">Результаты поиска</h2>
+      <a class="content__link" href="#">Посмотреть аналитику </a>
+      <div class="content__result-cards">
         <div class="result-card">
           <div class="result-card__image"></div>
           <p class="result-card__date">2 августа, 2019</p>
@@ -67,10 +67,11 @@
           <a href="#" class="result-card__source">Лента.ру</a>
         </div>
       </div>
-      <button class="search-result__button-more">Показать еще</button>
+      <button class="content__button-more">Показать еще</button>
     </div>
     <!-- об авторе -->
     <div class="author root__author">
+      <!-- todo: alt -->
       <img class="author__avatar" src="./images/avatar.png">
       <h2 class="author__title">Об авторе</h2>
       <p class="author__content">Это блок с описанием автора проекта. Здесь следует указать, как вас зовут, чем вы занимаетесь, какими технологиями разработки владеете.Также можно рассказать о процессе обучения в Практикуме, чему вы тут научились, и чем можете помочь потенциальным заказчикам. Если хотите, оставьте свои контакты: email

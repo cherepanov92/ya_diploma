@@ -1,11 +1,11 @@
-.search-result__result-cards {
+.content__result-cards {
   margin: 40px 0 4px 0;
   display: grid;
   flex-wrap: wrap;
 }
 
 @media screen and (min-width: 768px) {
-  .search-result__result-cards {
+  .content__result-cards {
     grid-area: cards;
     margin: 17px 0 4px 0;
     grid-template-columns: 1fr 1fr 1fr;
@@ -14,7 +14,7 @@
 }
 
 @media screen and (min-width: 1440px) {
-  .search-result__result-cards {
+  .content__result-cards {
     grid-area: cards;
     margin: 48px 0 4px 0;
     grid-template-columns: 1fr 1fr 1fr;

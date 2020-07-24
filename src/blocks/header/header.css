@@ -2,9 +2,13 @@
 @import url(./__nav-block/header__nav-block.css);
 @import url(./__search/header__search.css);
 
-.header {
+.header_bg {
   background-image: url("../../images/header_BG.png");
   background-size: cover;
   background-position: center;
+  position: relative;
+}
+
+.header {
   position: relative;
 }

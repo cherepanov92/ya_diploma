@@ -1,0 +1,15 @@
+@import url('./__title/content__title.css');
+@import url('./__link/content__link.css');
+@import url('./__result-cards/content__result-cards.css');
+@import url('./__button-more/content__button-more.css');
+
+
+@media screen and (min-width: 768px) {
+  .content {
+    display: grid;
+    grid-template-areas:
+      "title title title .... link link"
+      "cards cards cards cards cards cards"
+      ".... more more more more ....";
+  }
+}

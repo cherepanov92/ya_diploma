@@ -1,4 +1,4 @@
-.search-result__title {
+.content__title {
   margin: 0 0 16px 0;
   font-family: Roboto Slab;
   font-style: normal;
@@ -9,7 +9,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .search-result__title {
+  .content__title {
     grid-area: title;
     align-self: center;
     grid-column: 1/4;
@@ -17,7 +17,7 @@
 }
 
 @media screen and (min-width: 1440px) {
-  .search-result__title {
+  .content__title {
     font-size: 40px;
     line-height: 46px;
     grid-area: title;
