@@ -11,3 +11,9 @@
     position: relative;
   }
 }
+
+@media screen and (min-width: 1440px) {
+  .search__form {
+    margin: 65px 0 0 0;
+  }
+}

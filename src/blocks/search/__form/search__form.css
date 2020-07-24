@@ -1,3 +1,15 @@
 .search__form {
   margin: 64px 0 0 0;
 }
+
+@media screen and (min-width: 768px) {
+  .search__form {
+    margin: 24px 0 0 0;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .search__form {
+    margin: 65px 0 0 0;
+  }
+}

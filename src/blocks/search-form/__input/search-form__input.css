@@ -1,6 +1,6 @@
 .search-form__input {
-  padding: 16px 16px 16px 16px;
-  margin: 0 0 5% 0;
+  padding: 18px 16px 18px 16px;
+  margin: 0 0 6% 0;
   width: 100%;
   border-radius: 100px;
   border: none;
@@ -16,5 +16,12 @@
 @media screen and (min-width: 768px) {
   .search-form__input {
     width: 80%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .search-form__input {
+    padding: 20px 16px 20px 16px;
+    margin: 0 0 0 0;
   }
 }

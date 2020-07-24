@@ -7,3 +7,9 @@
   line-height: 26px;
   color: #fff;
 }
+
+@media screen and (min-width: 768px) {
+  .search__subtitle {
+    font-size: 18px;
+  }
+}
