@@ -9,6 +9,12 @@
 
 @media screen and (min-width: 768px) {
   .header__nav-block {
-    padding: 20px 5% 16px 5%;
+    padding: 23px 5% 16px 5%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .header__nav-block {
+    padding: 32px 6% 22px 7%;
   }
 }
