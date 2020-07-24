@@ -5,3 +5,9 @@
   display: flex;
   flex-wrap: wrap;
 }
+
+@media screen and (min-width: 768px) {
+  .search-form {
+    position: relative;
+  }
+}

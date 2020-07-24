@@ -13,3 +13,13 @@
   line-height: 24px;
   color: #fff;
 }
+
+@media screen and (min-width: 768px) {
+  .search-form__submit {
+    padding: 16px 16px 16px 16px;
+    position: absolute;
+    right: 0px;
+    width: 36%;
+    line-height: 22px;
+  }
+}

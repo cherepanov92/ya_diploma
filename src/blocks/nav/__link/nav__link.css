@@ -9,6 +9,13 @@
   text-decoration: none;
 }
 
+@media screen and (min-width: 768px) {
+  .nav__link {
+    margin: 0 0 0 24px;
+    font-size: 20px;
+  }
+}
+
 .nav__link_main-light {
   margin: 0 0 0 0;
   font-family: Roboto Slab;

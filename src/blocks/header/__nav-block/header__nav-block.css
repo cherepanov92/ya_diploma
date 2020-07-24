@@ -6,3 +6,9 @@
   justify-content: space-between;
   align-items: center;
 }
+
+@media screen and (min-width: 768px) {
+  .header__nav-block {
+    padding: 20px 5% 16px 5%;
+  }
+}
