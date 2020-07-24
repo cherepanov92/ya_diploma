@@ -1,5 +1,6 @@
 .search-result__link {
   margin: 0;
+  grid-area: link;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -15,8 +16,18 @@
 
 @media screen and (min-width: 768px) {
   .search-result__link {
-    position: absolute;
-    right: 5%;
-    top: 53px;
+    align-self: center;
+    justify-self: end;
+    right: 7%;
+    top: 48px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .search-result__link {
+    align-self: center;
+    justify-self: end;
+    right: 7%;
+    top: 48px;
   }
 }

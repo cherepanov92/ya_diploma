@@ -8,3 +8,15 @@
   text-decoration: none;
   text-transform: uppercase;
 }
+
+@media screen and (min-width: 768px) {
+  .result-card__source {
+    padding: 16px 8% 0 8%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .result-card__source {
+    padding: 23px 6% 8px 6%;
+  }
+}

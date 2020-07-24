@@ -13,3 +13,9 @@
   display: flex;
   flex-flow: column;
 }
+
+@media screen and (min-width: 768px) {
+  .result-card {
+    margin: 0 0 0 0;
+  }
+}

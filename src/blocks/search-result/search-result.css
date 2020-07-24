@@ -2,3 +2,15 @@
 @import url('./__link/search-result__link.css');
 @import url('./__result-cards/search-result__result-cards.css');
 @import url('./__button-more/search-result__button-more.css');
+
+
+@media screen and (min-width: 768px) {
+  .search-result {
+    display: grid;
+    grid-template-columns: repeat(6, 1f);
+    grid-template-areas:
+      "title title title .... link link"
+      "cards cards cards cards cards cards"
+      ".... more more more more ....";
+  }
+}

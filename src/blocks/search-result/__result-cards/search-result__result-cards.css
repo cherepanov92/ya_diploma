@@ -1,5 +1,23 @@
 .search-result__result-cards {
   margin: 40px 0 4px 0;
-  display: flex;
+  display: grid;
   flex-wrap: wrap;
+}
+
+@media screen and (min-width: 768px) {
+  .search-result__result-cards {
+    grid-area: cards;
+    margin: 17px 0 4px 0;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 7px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .search-result__result-cards {
+    grid-area: cards;
+    margin: 48px 0 4px 0;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 17px;
+  }
 }
