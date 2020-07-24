@@ -10,6 +10,18 @@
 .footer {
   display: flex;
   justify-content: space-between;
-  padding: 20px 16px;
+  padding: 26px 16px;
   flex-wrap: wrap;
+}
+
+@media screen and (min-width: 768px) {
+  .footer {
+    padding: 28px 39px 15px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .footer {
+    padding: 28px 101px 15px 39px;
+  }
 }
