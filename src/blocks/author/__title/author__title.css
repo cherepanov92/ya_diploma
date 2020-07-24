@@ -1,8 +1,24 @@
 .author__title {
-  margin: 24px auto 16px auto;
+  margin: 24px 0 16px 0;
   font-family: Roboto Slab;
   font-style: normal;
   font-weight: normal;
   font-size: 30px;
   line-height: 40px;
+
+  grid-area: title;
+}
+
+@media screen and (min-width: 768px) {
+  .author__title {
+    margin: 24px 0 12px 0;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .author__title {
+    margin: 103px 0 24px 0;
+    font-size: 40px;
+    line-height: 46px;
+  }
 }

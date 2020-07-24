@@ -1,3 +1,15 @@
 .root__author {
   padding: 10% 5% 10% 5%;
 }
+
+@media screen and (min-width: 768px) {
+  .root__author {
+    padding: 2% 5% 2% 5%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .root__author {
+    padding: 2% 5% 2% 7%;
+  }
+}

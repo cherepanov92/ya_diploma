@@ -1,7 +1,24 @@
 .author__avatar {
+  grid-area: avatar;
   display: block;
   width: 272px;
   border-radius: 100%;
   margin-left: auto;
   margin-right: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .author__avatar {
+    width: 232px;
+    margin: 45px 0 0 0;
+    grid-row: 1 / 4;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .author__avatar {
+    width: 465px;
+    margin: 45px 0 0 0;
+    grid-row: 1 / 4;
+  }
 }

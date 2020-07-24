@@ -4,4 +4,24 @@
 
 .author {
   background-color: #fff;
+  display: grid;
+  grid-template-areas:
+    "avatar"
+    "title"
+    "content";
+}
+
+@media screen and (min-width: 768px) {
+  .author {
+    grid-template-areas:
+      "avatar title"
+      "avatar content";
+    column-gap: 32px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .author {
+    column-gap: 59px;
+  }
 }
