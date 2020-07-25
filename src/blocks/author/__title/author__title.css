@@ -1,11 +1,5 @@
 .author__title {
   margin: 24px 0 16px 0;
-  font-family: Roboto Slab;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 30px;
-  line-height: 40px;
-
   grid-area: title;
 }
 

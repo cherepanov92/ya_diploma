@@ -3,6 +3,9 @@
 @import url('./__author/root__author.css');
 @import url('./__footer/root_footer.css');
 
+@import url('./__client-info/root__client-info.css');
+@import url('./__technology/root__technology.css');
+
 .root {
   background-color: #F5F6F7;
   min-width: 320px;

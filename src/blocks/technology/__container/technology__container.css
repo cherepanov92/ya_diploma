@@ -1,0 +1,12 @@
+.technology__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+@media screen and (min-width: 1440px) {
+  .technology__container {
+    width: 50%;
+  }
+}
+

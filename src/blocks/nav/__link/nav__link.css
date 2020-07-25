@@ -5,7 +5,7 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  color: #1A1B22;
+  color: #B6BCBF;
   text-decoration: none;
 }
 
@@ -14,6 +14,13 @@
     margin: 0 0 0 24px;
     font-size: 20px;
   }
+}
+
+.nav__link_main {
+  margin: 0 0 0 0;
+  font-family: Roboto Slab;
+  font-weight: bold;
+  color: #1A1B22;
 }
 
 .nav__link_main-light {

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="author" content="Черепанов Артём">
+  <title>О проекте</title>
+  <link rel="stylesheet" href="./about.css">
+</head>
+<body>
+  <div class="root">
+    <header class="header root__header">
+      <nav class="nav header__nav-block">
+        <a class="nav__link nav__link_main" href="#">NewsAnalyzer</a>
+        <div class="nav__group">
+          <a class="nav__link" href="index.html">Главная</a>
+          <a class="nav__link nav__link_active" href="#">О проекте</a>
+        </div>
+      </nav>
+    </header>
+    <!-- Клиентам -->
+    <div class="client-info root__client-info white-bg">
+      <h1 class="title client-info__title">
+        Клиентам
+      </h1>
+      <p class="subtitle client-info__subtitle">
+        Этот сайт — дипломный проект студента Яндекс.Практикума. Его цель — показать, чему научился студент, какими технологиями владеет.
+      </p>
+      <p class="subtitle client-info__subtitle">
+        Вёрстка сайта выполнена по методологии БЭМ. Это делает сайт гибким и масштабируемым. Кроме того, добавлять новые страницы и функциональность проще и быстрее, чем в проектах, выполненных по другим методологиям. Также сайт проще и дешевле поддерживать.
+      </p>
+      <p class="subtitle client-info__subtitle">
+        Карточки с новостями приходят с сервера и обрабатываются асинхронно. То есть сайт продолжает работать, пока от сервера приходит ответ. Это повышает удобство использования сервиса.
+      </p>
+      <p class="subtitle client-info__subtitle">
+        При создании проекта была использована сборка технологией Webpack. Это современный подход к разработке сайтов. Код оптимизируется, а значит, сайт работает быстрее. Также сайт работает в старых браузерах. Даже если посетители — пользователи старых операционных систем, у них не будет проблем с отображением. А значит, потенциальная аудитория возрастает.
+      </p>
+      <p class="subtitle client-info__subtitle">
+        Проект был проверен экспертами Яндекс.Практикума. Если вашему бизнесу нужен сайт, мы рекомендуем обратиться к этому студенту.
+      </p>
+      </p>
+    </div>
+    <!-- Технологии -->
+    <div class="technology root__technology">
+      <h2 class="title technology__title">
+        Используемые технологии
+      </h2>
+      <div class="technology__container">
+        <div class="technology__item">
+          <p class="subtitle technology__subtitle">
+            HTML
+          </p>
+          <img class="technology__icon" src="./images/technology/html.svg" alt="">
+        </div>
+        <div class="technology__item">
+          <p class="subtitle technology__subtitle">
+            CSS
+          </p>
+          <img class="technology__icon" src="./images/technology/css.svg" alt="">
+        </div>
+        <div class="technology__item">
+          <p class="subtitle technology__subtitle">
+            Java Script
+          </p>
+          <img class="technology__icon" src="./images/technology/js.svg" alt="">
+        </div>
+        <div class="technology__item">
+          <p class="subtitle technology__subtitle">
+            Webpack
+          </p>
+          <img class="technology__icon" src="./images/technology/webpack.svg" alt="">
+        </div>
+      </div>
+    </div>
+    <!-- Об авторе -->
+    <div class="author root__author">
+      <!-- todo: alt -->
+      <img class="author__avatar" src="./images/avatar.png">
+      <h2 class="title author__title">Об авторе</h2>
+      <p class="subtitle author__content">Это блок с описанием автора проекта. Здесь следует указать, как вас зовут, чем вы занимаетесь, какими технологиями разработки владеете.Также можно рассказать о процессе обучения в Практикуме, чему вы тут научились, и чем можете помочь потенциальным заказчикам. Если хотите, оставьте свои контакты: email
+        и телефон. Так заказчики смогут с вами связаться.</p>
+    </div>
+    <!-- Подвал -->
+    <footer class="footer">
+      <p class="footer__copyright">© 2020 Артём Черепанов</p>
+      <nav class="footer__nav">
+        <ul class="footer__menu">
+          <li><a href="./index.html" class="footer__menu-item">Главная</a></li>
+          <li><a href="./about.html" class="footer__menu-item">О проекте</a></li>
+          <li><a href="https://praktikum.yandex.ru/" class="footer__menu-item" target="_blank">Яндекс.Практикум</a>
+          </li>
+        </ul>
+      </nav>
+      <ul class="footer__social-container">
+        <li class="footer__social-link">
+          <a href="https://github.com/cherepanov92" class="footer__link" target="_blank">
+            <img src="./images/git.svg" class="footer__icon" alt="GitHub">
+          </a>
+        </li>
+        <li class="footer__social-link">
+          <a href="https://t.me/a_cherepanov" class="footer__link" target="_blank">
+            <img src="./images/telegram.svg" class="footer__icon" alt="Facebook">
+          </a>
+        </li>
+      </ul>
+    </footer>
+  </div>
+  <!-- <script src="<%= htmlWebpackPlugin.files.js %>"></script> -->
+</body>
+</html>

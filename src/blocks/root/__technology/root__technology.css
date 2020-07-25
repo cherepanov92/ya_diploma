@@ -1,0 +1,10 @@
+.root__technology {
+  padding: 5% 5% 3% 5%;
+}
+
+@media screen and (min-width: 768px) {
+  .root__technology {
+    padding: 5% 7% 5% 7%;
+  }
+}
+

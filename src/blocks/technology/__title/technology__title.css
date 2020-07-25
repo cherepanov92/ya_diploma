@@ -1,0 +1,10 @@
+.technology__title {
+  line-height: 39px;
+  margin: 17px 0 30px ;
+}
+
+@media screen and (min-width: 1440px) {
+  .technology__title {
+    width: 40%;
+  }
+}
