@@ -5,6 +5,7 @@
 @import url('./blocks/subtitle/subtitle.css');
 @import url('./blocks/comment/comment.css');
 @import url('./blocks/white-bg/white-bg.css');
+@import url('./blocks/btn/btn.css');
 
 @import url('./blocks/root/root.css');
 @import url('./blocks/header/header.css');
@@ -14,6 +15,7 @@
 @import url('./blocks/author/author.css');
 @import url('./blocks/git-history/git-history.css');
 @import url('./blocks/carousel/carousel.css');
+@import url('./blocks/pagination/pagination.css');
 
 @import url('./blocks/footer/footer.css');
 

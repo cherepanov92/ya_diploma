@@ -87,20 +87,33 @@
         История коммитов из GitHub
       </h2>
       <div class="carousel git-history__carousel">
-        <div class="white-bg carousel__container">
-          <p class="carousel__date">14 августа, 2019</p>
-          <div class="author author-git carousel__author">
-            <img class="author__avatar author__avatar-git avatar" src="./images/avatar.png" alt="">
-            <p class="author__title author__title-git title">Антон Дмитриев</p>
-            <p class="author__subtitle author__subtitle-git subtitle">anton@yandex.ru</p>
+        <div class="carousel__container">
+          <div class="white-bg carousel__card">
+            <p class="carousel__date">14 августа, 2019</p>
+            <div class="author author-git carousel__author">
+              <img class="author__avatar author__avatar-git avatar" src="./images/avatar.png" alt="">
+              <p class="author__title author__title-git title">Антон Дмитриев</p>
+              <p class="author__subtitle author__subtitle-git subtitle">anton@yandex.ru</p>
+            </div>
+            <p class="carousel__comment">Emmet (formerly Zen Coding)
+              is a web-developer’s toolkit that can greatly improve your HTML & CSS workflow.
+            </p>
           </div>
-          <p class="carousel__comment">Emmet (formerly Zen Coding)
-            is a web-developer’s toolkit that can greatly improve your HTML & CSS workflow.</p>
+        </div>
+        <div class="pagination carousel__pagination">
+          <div class="pagination__icon pagination__icon-active"></div>
+          <div class="pagination__icon"></div>
+          <div class="pagination__icon"></div>
+          <div class="pagination__icon"></div>
+          <div class="pagination__icon"></div>
         </div>
       </div>
+      <button class="btn git-history__btn">
+        Открыть в GitHub
+      </button>
     </div>
     <!-- Подвал -->
-    <footer class="footer">
+    <footer class="white-bg footer">
       <p class="footer__copyright">© 2020 Артём Черепанов</p>
       <nav class="footer__nav">
         <ul class="footer__menu">

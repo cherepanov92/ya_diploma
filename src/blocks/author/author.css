@@ -11,11 +11,6 @@
     "subtitle";
 }
 
-.author-git {
-  column-gap: 5%;
-  grid-template-columns: 19% auto;;
-}
-
 @media screen and (min-width: 768px) {
   .author {
     grid-template-areas:
@@ -28,5 +23,26 @@
 @media screen and (min-width: 1440px) {
   .author {
     column-gap: 59px;
+    grid-template-rows: 174px;
+  }
+}
+
+.author-git {
+  column-gap: 5%;
+  grid-template-columns: 19% auto;
+}
+
+@media screen and (min-width: 768px) {
+  .author-git {
+    column-gap: 3px;
+    grid-template-columns: 19% auto;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .author-git {
+    column-gap: 18px;
+    grid-template-columns: 19% auto;
+    grid-template-rows: 49px;
   }
 }

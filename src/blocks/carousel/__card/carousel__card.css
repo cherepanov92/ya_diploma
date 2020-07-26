@@ -1,0 +1,18 @@
+.carousel__card {
+  border-radius: 16px 16px 16px 16px;
+  padding: 1% 6% 22% 6%;
+}
+
+@media screen and (min-width: 768px) {
+  .carousel__card {
+    max-width: 309px;
+    padding: 0% 2% 4% 2%;;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .carousel__card {
+    max-width: 363px;
+    padding: 0% 2% 9% 2%;
+  }
+}

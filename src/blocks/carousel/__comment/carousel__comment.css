@@ -6,3 +6,10 @@
   line-height: 22px;
   margin: 5% 0 0 0;
 }
+
+@media screen and (min-width: 768px) {
+  .carousel__comment {
+    margin: 4% 0 0 0;
+  }
+}
+

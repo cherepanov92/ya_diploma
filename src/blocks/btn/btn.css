@@ -1,0 +1,33 @@
+.btn {
+  padding: 16px;
+  width: 100%;
+  border-radius: 100px;
+  border: none;
+  background-color: #fff;
+  outline:none;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #1A1B22;
+}
+
+@media screen and (min-width: 768px) {
+  .content__button-more {
+    padding: 16px;
+    max-width: 220px;
+    margin: 20px 0 0 0;
+    align-self: center;
+    justify-self: center;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .content__button-more {
+    padding: 20px;
+    max-width: 310px;
+    margin: 60px 0 0 0;
+  }
+}

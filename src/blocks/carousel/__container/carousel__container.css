@@ -1,4 +1,11 @@
 .carousel__container {
-  border-radius: 16px 16px 16px 16px;
-  padding: 1% 6% 22% 6%;
+  display: flex;
+  column-gap: 1%;
+  flex-flow: row-reverse wrap-reverse;
+}
+
+@media screen and (min-width: 1440px) {
+  .carousel__container {
+    margin: 1% 520px 0 0;
+  }
 }
