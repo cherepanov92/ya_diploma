@@ -1,0 +1,19 @@
+.author__subtitle {
+  margin: 0;
+  grid-area: subtitle;
+  grid-row: 3;
+}
+
+.author__subtitle-git {
+  font-size: 14px;
+  grid-column: 2;
+  grid-row: 2;
+}
+
+@media screen and (min-width: 768px) {
+  .author__subtitle {
+    margin: 0 19% 0 0;
+    grid-column: 2;
+    grid-row: 2;
+  }
+}

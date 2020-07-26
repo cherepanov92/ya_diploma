@@ -1,11 +1,21 @@
 .author__title {
   margin: 24px 0 16px 0;
   grid-area: title;
+  grid-row: 2;
+}
+
+.author__title-git {
+  font-size: 20px;
+  grid-row: 1;
+  grid-column: 2;
+  margin: 0;
 }
 
 @media screen and (min-width: 768px) {
   .author__title {
     margin: 24px 0 12px 0;
+    grid-row: 1;
+    grid-column: 2;
   }
 }
 

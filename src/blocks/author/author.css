@@ -1,6 +1,6 @@
 @import url('./__avatar/author__avatar.css');
 @import url('./__title/author__title.css');
-@import url('./__content/author__content.css');
+@import url('./__subtitle/author__subtitle.css');
 
 .author {
   background-color: #fff;
@@ -8,14 +8,19 @@
   grid-template-areas:
     "avatar"
     "title"
-    "content";
+    "subtitle";
+}
+
+.author-git {
+  column-gap: 5%;
+  grid-template-columns: 19% auto;;
 }
 
 @media screen and (min-width: 768px) {
   .author {
     grid-template-areas:
       "avatar title"
-      "avatar content";
+      "avatar subtitle";
     column-gap: 32px;
   }
 }
