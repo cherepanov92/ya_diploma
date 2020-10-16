@@ -11,7 +11,7 @@
 @media screen and (max-width: 730px) {
     .footer__copyright {
         order: 3;
-        margin-top: 40px;
+        margin-top: 36px;
         min-width: 300px;
     }
 }

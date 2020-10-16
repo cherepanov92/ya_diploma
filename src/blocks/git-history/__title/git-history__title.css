@@ -2,11 +2,12 @@
   grid-area: title;
   line-height: 40px;
   margin: 8% 0 5% 0;
+  max-width: 300px;
 }
 
 @media screen and (min-width: 768px) {
   .git-history__title {
-    margin: 7% 0 5% 0;
+    margin: 8% 10px 5% 0;
   }
 }
 

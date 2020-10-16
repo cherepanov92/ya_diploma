@@ -24,8 +24,8 @@
 }
 
 .author__avatar-git {
-  margin: 8% 0 0 0;
-  width: 100%;
+  margin: 0 0 0 15px;
+  width: 88%;
   grid-row: 1/3;
 }
 

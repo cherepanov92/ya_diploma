@@ -4,6 +4,12 @@
   flex-flow: row-reverse wrap-reverse;
 }
 
+@media screen and (min-width: 768px) {
+  .carousel__container {
+    flex-flow: column;
+  }
+}
+
 @media screen and (min-width: 1440px) {
   .carousel__container {
     margin: 1% 520px 0 0;
