@@ -1,5 +1,7 @@
 .result-card__source {
-  padding: 5px 5%;
+  padding: 0 6% 23px 6%;
+  position:absolute;
+  bottom:0;
   font-family: Roboto Slab;
   font-style: normal;
   font-weight: bold;
@@ -12,11 +14,14 @@
 @media screen and (min-width: 768px) {
   .result-card__source {
     padding: 16px 8% 0 8%;
+    position: absolute;
+    bottom: 18px;
   }
 }
 
 @media screen and (min-width: 1440px) {
   .result-card__source {
-    padding: 23px 6% 8px 6%;
+    padding: 0 6% 23px 6%;
+    position: absolute;
   }
 }

@@ -1,11 +1,14 @@
 .result-card__subtitle {
   margin: 5% 5% 5px 5%;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 @media screen and (min-width: 768px) {
   .result-card__subtitle {
     margin: 4% 6% 1px 8%;
     line-height: 21px;
+    max-height: 90px;
   }
 }
 
