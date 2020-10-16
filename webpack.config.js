@@ -75,15 +75,15 @@ module.exports = {
                     {
                         loader: 'file-loader',
                         options: {
-                            name: './images/[name].[ext]',
+                            name: './src/images/[name].[ext]',
                             esModule: false
                         }
                     },
                     {
                         loader: 'image-webpack-loader',
                         options: {
-                            bypassOnDebug: true, // webpack@1.x
-                            disable: true, // webpack@2.x and newer
+                            bypassOnDebug: true,
+                            disable: true,
                         },
                     },
                 ]
