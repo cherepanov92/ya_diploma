@@ -18,6 +18,13 @@
     background-color: transparent;
   }
 
+@media screen and (min-width: 1440px) {
+  .git-history__btn {
+    padding-right: 118px;
+  }
+}
+
+
   .git-history__btn:after {
     content: url("../../../images/result_link.svg");
   }

@@ -14,5 +14,6 @@
 @media screen and (min-width: 1440px) {
   .git-history__title {
     margin: 5% 0px 5% 11%;
+    max-width: 650px;
   }
 }

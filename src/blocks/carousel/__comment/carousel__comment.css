@@ -13,3 +13,8 @@
   }
 }
 
+@media screen and (min-width: 1440px) {
+  .carousel__comment {
+    margin: 4% 0 0 0;
+  }
+}

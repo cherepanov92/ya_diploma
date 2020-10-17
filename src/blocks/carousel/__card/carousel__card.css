@@ -14,7 +14,7 @@
 
 @media screen and (min-width: 1440px) {
   .carousel__card {
-    max-width: 363px;
-    padding: 0% 2% 9% 2%;
+    max-width: 366px;
+    padding: 0% 1% 8% 3%;
   }
 }

@@ -7,5 +7,6 @@
 @media screen and (min-width: 1440px) {
   .technology__title {
     width: 40%;
+    padding-right: 194px;
   }
 }
