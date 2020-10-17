@@ -9,6 +9,7 @@
 
 @import url('./__stat/root__stat.css');
 @import url('./__analytics/root__analytics.css');
+@import url('./__breadcrumbs/root__breadcrumbs.css');
 
 .root {
   background-color: #FFF;

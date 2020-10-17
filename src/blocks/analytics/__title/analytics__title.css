@@ -9,6 +9,8 @@
 
 @media screen and (min-width: 768px) {
   .analytics__title {
+    font-size: 26px;
+    line-height: 30px;
   }
 }
 

@@ -4,6 +4,7 @@
 
 @media screen and (min-width: 768px) {
   .root__stat {
+    padding: 1px 25px 22px 25px;
   }
 }
 

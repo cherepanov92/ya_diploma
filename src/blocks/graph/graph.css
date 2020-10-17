@@ -3,6 +3,8 @@
 @import url('./__title/graph__title.css');
 
 @import url('./__date/graph__date.css');
+@import url('./__range/graph__range.css');
+@import url('./__range_position/graph__range_position.css');
 @import url('./__data_col/graph__data_col.css');
 @import url('./__data_name/graph__data_name.css');
 @import url('./__value_col/graph__value_col.css');

@@ -1,6 +1,6 @@
 .graph__data_value {
   margin: 13px 0 11px 20px;
-  
+
   color: #FFFFFF;
   background-color: #2F71E5;
 
@@ -21,6 +21,10 @@
 
 @media screen and (min-width: 768px) {
   .graph__data_value {
+    margin: 3px 0 54px 20px;
+  }
+  .graph__data_value:last-child {
+    margin: 3px 0 0 20px;
   }
 }
 

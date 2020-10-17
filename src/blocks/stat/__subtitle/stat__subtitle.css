@@ -1,0 +1,12 @@
+.stat__subtitle {
+}
+
+@media screen and (min-width: 768px) {
+  .stat__subtitle {
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .stat__subtitle {
+  }
+}
