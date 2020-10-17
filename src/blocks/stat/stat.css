@@ -1,0 +1,17 @@
+@import url('./__title/stat__title.css');
+@import url('./__key/stat__key.css');
+@import url('./__value/stat__value.css');
+
+.stat {
+  background-color:  #FFF;
+}
+
+@media screen and (min-width: 768px) {
+  .stat {
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .stat {
+  }
+}

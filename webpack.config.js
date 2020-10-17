@@ -35,6 +35,7 @@ module.exports = {
     entry: {
         main: './index.js',
         about: './about.js',
+        analytics: './analytics.js',
     },
     output: {
         filename: `scripts/${filename('js')}`,
@@ -127,6 +128,15 @@ module.exports = {
                 collapseWhitespace: isProd
             }
         }),
+        new HTMLWebpackPlugin({
+          template: './analytics.html',
+          filename: 'analytics.html',
+          favicon: './images/favicon.ico',
+          chunks: ['analytics'],
+          minify: {
+              collapseWhitespace: isProd
+          }
+      }),
         new MiniCssExtractPlugin({
             filename: `./styles/${filename('css')}`
         }),

@@ -1,0 +1,13 @@
+.graph__date {
+  display: flex;
+}
+
+@media screen and (min-width: 768px) {
+  .graph__date {
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .graph__date {
+  }
+}

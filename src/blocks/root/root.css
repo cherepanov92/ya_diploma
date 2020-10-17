@@ -7,8 +7,11 @@
 @import url('./__technology/root__technology.css');
 @import url('./__git-history/root__git-history.css');
 
+@import url('./__stat/root__stat.css');
+@import url('./__analytics/root__analytics.css');
+
 .root {
-  background-color: #F5F6F7;
+  background-color: #FFF;
   min-width: 320px;
   max-width: 1440px;
   margin: 0 auto;

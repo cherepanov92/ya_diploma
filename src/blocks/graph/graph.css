@@ -1,0 +1,22 @@
+@import url('./__title_container/graph__title_container.css');
+@import url('./__data_container/graph__data_container.css');
+@import url('./__title/graph__title.css');
+
+@import url('./__date/graph__date.css');
+@import url('./__data_col/graph__data_col.css');
+@import url('./__data_name/graph__data_name.css');
+@import url('./__value_col/graph__value_col.css');
+@import url('./__data_value/graph__data_value.css');
+
+.graph {
+}
+
+@media screen and (min-width: 768px) {
+  .graph {
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .graph {
+  }
+}

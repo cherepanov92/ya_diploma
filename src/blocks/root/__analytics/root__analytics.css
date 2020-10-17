@@ -1,0 +1,12 @@
+.root__analytics {
+}
+
+@media screen and (min-width: 768px) {
+  .root__analytics {
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .root__analytics {
+  }
+}
