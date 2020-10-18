@@ -1,6 +1,7 @@
 .result-card__content_block {
   background-color: #fff;
-  border-radius: 16px;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
   padding-bottom: 17px;
   min-height: 232px;
   position: relative;
