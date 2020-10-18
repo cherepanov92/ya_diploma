@@ -1,0 +1,18 @@
+@import url('./__image/bad_request__image.css');
+@import url('./__title/bad_request__title.css');
+@import url('./__subtitle/bad_request__subtitle.css');
+
+.bad_request {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+  .bad_request {
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .bad_request {
+  }
+}

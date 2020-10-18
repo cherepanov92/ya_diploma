@@ -4,8 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="Дипломный проект Яндекс Парктикум">
   <meta name="author" content="Черепанов Артём">
-  <title>Диплом</title>
+  <title>Диплом </title>
   <link rel="stylesheet" href="./index.css">
 </head>
 <body>
@@ -28,56 +29,67 @@
       </div>
     </header>
     <div class="content root__content">
-      <h2 class="content__title title">Результаты поиска</h2>
-      <a class="content__link" href="./analytics.html">Посмотреть аналитику </a>
-      <div class="content__result-cards">
-        <div class="result-card">
-          <div class="result-card__image"></div>
-          <div class="result-card__content_block">
-            <p class="result-card__date">2 августа, 2019</p>
-            <h3 class="result-card__title">Национальное достояние – парки</h3>
-            <h4 class="comment result-card__subtitle">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться система национальных парков...</h4>
-            <a href="#" class="result-card__source">Лента.ру</a>
+      <div class="content__preloader">
+        <i class="preloader"></i>
+        <p class="preloader__text">Идет поиск новостей...</p>
+      </div>
+      <div class="bad_request content__bad_request">
+        <img src="<%=require('./images/bad_request.svg')%>" class="bad_request__image" alt="bad request smile">
+        <p class="bad_request__title">Ничего не найдено</p>
+        <p class="bad_request__subtitle">К сожалению по вашему запросу ничего не найдено.</p>
+      </div>
+      <div class="content__result-grid">
+        <h2 class="content__title title">Результаты поиска</h2>
+        <a class="content__link" href="./analytics.html">Посмотреть аналитику </a>
+        <div class="content__result-cards">
+          <div class="result-card">
+            <div class="result-card__image"></div>
+            <div class="result-card__content_block">
+              <p class="result-card__date">2 августа, 2019</p>
+              <h3 class="result-card__title">Национальное достояние – парки</h3>
+              <h4 class="comment result-card__subtitle">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться система национальных парков...</h4>
+              <a href="#" class="result-card__source">Лента.ру</a>
+            </div>
           </div>
-        </div>
-        <div class="result-card">
-          <div class="result-card__image"></div>
-          <div class="result-card__content_block">
-            <p class="result-card__date">2 августа, 2019</p>
-            <h3 class="result-card__title">Национальное достояние – парки</h3>
-            <h4 class="comment result-card__subtitle">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться система национальных парков...</h4>
-            <a href="#" class="result-card__source">Лента.ру</a>
+          <div class="result-card">
+            <div class="result-card__image"></div>
+            <div class="result-card__content_block">
+              <p class="result-card__date">2 августа, 2019</p>
+              <h3 class="result-card__title">Национальное достояние – парки</h3>
+              <h4 class="comment result-card__subtitle">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться система национальных парков...</h4>
+              <a href="#" class="result-card__source">Лента.ру</a>
+            </div>
           </div>
-        </div>
-        <div class="result-card">
-          <div class="result-card__image"></div>
-          <div class="result-card__content_block">
-            <p class="result-card__date">2 августа, 2019</p>
-            <h3 class="result-card__title">Национальное достояние – парки</h3>
-            <h4 class="comment result-card__subtitle">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться система национальных парков...</h4>
-            <a href="#" class="result-card__source">Лента.ру</a>
+          <div class="result-card">
+            <div class="result-card__image"></div>
+            <div class="result-card__content_block">
+              <p class="result-card__date">2 августа, 2019</p>
+              <h3 class="result-card__title">Национальное достояние – парки</h3>
+              <h4 class="comment result-card__subtitle">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться система национальных парков...</h4>
+              <a href="#" class="result-card__source">Лента.ру</a>
+            </div>
           </div>
-        </div>
-        <div class="result-card">
-          <div class="result-card__image"></div>
-          <div class="result-card__content_block">
-            <p class="result-card__date">2 августа, 2019</p>
-            <h3 class="result-card__title">Национальное достояние – парки</h3>
-            <h4 class="comment result-card__subtitle">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться система национальных парков...</h4>
-            <a href="#" class="result-card__source">Лента.ру</a>
+          <div class="result-card">
+            <div class="result-card__image"></div>
+            <div class="result-card__content_block">
+              <p class="result-card__date">2 августа, 2019</p>
+              <h3 class="result-card__title">Национальное достояние – парки</h3>
+              <h4 class="comment result-card__subtitle">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться система национальных парков...</h4>
+              <a href="#" class="result-card__source">Лента.ру</a>
+            </div>
           </div>
-        </div>
-        <div class="result-card">
-          <div class="result-card__image"></div>
-          <div class="result-card__content_block">
-            <p class="result-card__date">2 августа, 2019</p>
-            <h3 class="result-card__title">Национальное достояние – парки</h3>
-            <h4 class="comment result-card__subtitle">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться система национальных парков...</h4>
-            <a href="#" class="result-card__source">Лента.ру</a>
+          <div class="result-card">
+            <div class="result-card__image"></div>
+            <div class="result-card__content_block">
+              <p class="result-card__date">2 августа, 2019</p>
+              <h3 class="result-card__title">Национальное достояние – парки</h3>
+              <h4 class="comment result-card__subtitle">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться система национальных парков...</h4>
+              <a href="#" class="result-card__source">Лента.ру</a>
+            </div>
           </div>
         </div>
       </div>
-      <button class="btn content__button-more">Показать еще</button>
+      <button class="content__button-more">Показать еще</button>
     </div>
     <!-- об авторе -->
     <div class="author root__author">
