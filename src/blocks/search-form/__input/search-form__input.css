@@ -1,0 +1,27 @@
+.search-form__input {
+  padding: 18px 16px 18px 16px;
+  margin: 0 0 6% 0;
+  width: 100%;
+  border-radius: 100px;
+  border: none;
+  outline:none;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+@media screen and (min-width: 768px) {
+  .search-form__input {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .search-form__input {
+    padding: 20px 16px 20px 16px;
+    margin: 0 0 0 0;
+  }
+}

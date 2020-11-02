@@ -1,0 +1,20 @@
+.carousel__comment {
+  margin: 5% 15px 0 15px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+@media screen and (min-width: 768px) {
+  .carousel__comment {
+    margin: 5% 0 0 0;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .carousel__comment {
+    margin: 4% 0 0 0;
+  }
+}

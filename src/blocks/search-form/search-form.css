@@ -1,0 +1,19 @@
+@import url('./__input/search-form__input.css');
+@import url('./__submit/search-form__submit.css');
+
+.search-form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media screen and (min-width: 768px) {
+  .search-form {
+    position: relative;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .search__form {
+    margin: 65px 0 0 0;
+  }
+}

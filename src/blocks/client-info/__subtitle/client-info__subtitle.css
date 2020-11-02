@@ -1,0 +1,16 @@
+.client-info__subtitle {
+  margin: 21px 0 27px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .client-info__subtitle {
+    margin: 16px 0 25px 0;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .client-info__subtitle {
+    margin: 25px 415px 25px 0;
+  }
+}
+

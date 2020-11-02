@@ -1,0 +1,19 @@
+@import url('./__header/root_header.css');
+@import url('./__content/root__content.css');
+@import url('./__author/root__author.css');
+@import url('./__footer/root_footer.css');
+
+@import url('./__client-info/root__client-info.css');
+@import url('./__technology/root__technology.css');
+@import url('./__git-history/root__git-history.css');
+
+@import url('./__stat/root__stat.css');
+@import url('./__analytics/root__analytics.css');
+@import url('./__breadcrumbs/root__breadcrumbs.css');
+
+.root {
+  background-color: #FFF;
+  min-width: 320px;
+  max-width: 1440px;
+  margin: 0 auto;
+}

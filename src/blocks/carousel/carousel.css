@@ -1,0 +1,11 @@
+@import url('./__container/carousel__container.css');
+@import url('./__card/carousel__card.css');
+@import url('./__date/carousel__date.css');
+@import url('./__avatar/carousel__avatar.css');
+@import url('./__uname/carousel__uname.css');
+@import url('./__umail/carousel__umail.css');
+@import url('./__comment/carousel__comment.css');
+
+.carousel {
+
+}

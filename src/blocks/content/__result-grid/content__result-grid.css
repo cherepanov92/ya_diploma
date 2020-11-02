@@ -1,0 +1,18 @@
+.content__result-grid {
+}
+
+@media screen and (min-width: 768px) {
+  .content__result-grid {
+    display: grid;
+    grid-template-areas:
+      "title title title .... link link"
+      "cards cards cards cards cards cards"
+      ".... more more more more ....";
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .content__result-grid {
+
+  }
+}

@@ -1,0 +1,18 @@
+@import url('./__title/analytics__title.css');
+@import url('./__data/analytics__data.css');
+@import url('./__graph/analytics__graph_data.css');
+
+.analytics {
+  font-size: 22px;
+  background-color: #F5F6F7;
+}
+
+@media screen and (min-width: 768px) {
+  .analytics {
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .analytics {
+  }
+}

@@ -1,0 +1,19 @@
+.bad_request__subtitle {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: #B6BCBF;
+}
+
+@media screen and (min-width: 768px) {
+  .bad_request__subtitle {
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .bad_request__subtitle {
+  }
+}

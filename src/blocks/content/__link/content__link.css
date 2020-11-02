@@ -1,0 +1,33 @@
+.content__link {
+  margin: 0;
+  grid-area: link;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #1A1B22;
+  text-decoration: none;
+}
+
+.content__link:after {
+  content: url("../../../images/result_link.svg");
+}
+
+@media screen and (min-width: 768px) {
+  .content__link {
+    align-self: center;
+    justify-self: end;
+    right: 7%;
+    top: 48px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .content__link {
+    align-self: center;
+    justify-self: end;
+    right: 7%;
+    top: 48px;
+  }
+}

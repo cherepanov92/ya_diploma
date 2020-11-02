@@ -1,0 +1,21 @@
+.result-card__date {
+  margin: 5%;
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: #B6BCBF;
+}
+
+@media screen and (min-width: 768px) {
+  .result-card__date {
+    margin: 7%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .result-card__date {
+    margin: 5% 5% 13px 5%;
+  }
+}

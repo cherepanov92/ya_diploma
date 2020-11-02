@@ -1,0 +1,27 @@
+.result-card__source {
+  padding: 0 6% 23px 6%;
+  position:absolute;
+  bottom:0;
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  color: #B6BCBF;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 768px) {
+  .result-card__source {
+    padding: 16px 8% 0 8%;
+    position: absolute;
+    bottom: 18px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .result-card__source {
+    padding: 0 6% 23px 6%;
+    position: absolute;
+  }
+}

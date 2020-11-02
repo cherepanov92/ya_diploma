@@ -1,0 +1,44 @@
+.search-form__submit {
+  padding: 16px 16px 16px 16px;
+  width: 100%;
+  border-radius: 100px;
+  border: none;
+  background-color: #2F71E5;
+  outline:none;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #fff;
+}
+
+.search-form__submit:hover {
+  background-color: #347EFF;
+}
+
+.search-form__submit:active {
+  background-color: #2A65CC;
+}
+
+@media screen and (min-width: 768px) {
+  .search-form__submit {
+    padding: 18px 16px 18px 16px;
+    position: absolute;
+    right: 0px;
+    width: 36%;
+    line-height: 22px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .search-form__submit {
+    padding: 20px 10px 20px 10px;
+    position: absolute;
+    right: 0px;
+    width: 36%;
+    line-height: 22px;
+    width: 28%;
+  }
+}

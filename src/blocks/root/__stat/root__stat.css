@@ -1,0 +1,15 @@
+.root__stat {
+  margin: 16px 15px 22px 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .root__stat {
+    padding: 14px 25px 22px 25px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .root__stat {
+    padding: 25px 15px 57px 90px;
+  }
+}

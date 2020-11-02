@@ -1,0 +1,11 @@
+.root__technology {
+  padding: 5% 5% 3% 5%;
+  background-color: #F5F6F7;
+}
+
+@media screen and (min-width: 768px) {
+  .root__technology {
+    padding: 2% 3% 1% 5%;
+  }
+}
+

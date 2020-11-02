@@ -1,0 +1,18 @@
+.stat__key {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  display: inline;
+}
+
+@media screen and (min-width: 768px) {
+  .stat__key {
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .stat__key {
+  }
+}

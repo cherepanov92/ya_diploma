@@ -1,0 +1,15 @@
+@import url('./__preloader/content__preloader.css');
+@import url('./__result-grid/content__result-grid.css');
+@import url('./__title/content__title.css');
+@import url('./__link/content__link.css');
+@import url('./__result-cards/content__result-cards.css');
+@import url('./__button-more/content__button-more.css');
+
+.content {
+  background-color: #F5F6F7;
+}
+
+@media screen and (min-width: 768px) {
+  .content {
+  }
+}

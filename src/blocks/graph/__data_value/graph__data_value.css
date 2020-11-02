@@ -1,0 +1,34 @@
+.graph__data_value {
+  margin: 13px 0 11px 20px;
+
+  color: #FFFFFF;
+  background-color: #2F71E5;
+
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 6px;
+  padding-right: 12px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 768px) {
+  .graph__data_value {
+    margin: 3px 0 54px 20px;
+  }
+  .graph__data_value:last-child {
+    margin: 3px 0 0 20px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .graph__data_value {
+  }
+}

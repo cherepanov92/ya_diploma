@@ -1,0 +1,21 @@
+.carousel__date {
+  margin: 6% 0 10px 15px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  color: #B6BCBF;
+}
+
+@media screen and (min-width: 768px) {
+  .carousel__date {
+    margin: 9% 0 1% 0;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .carousel__date {
+    margin: 7% 0 0% 0;
+  }
+}

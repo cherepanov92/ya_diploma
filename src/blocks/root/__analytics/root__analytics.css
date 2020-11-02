@@ -1,0 +1,15 @@
+.root__analytics {
+  padding: 25px 16px 20px 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .root__analytics {
+    padding: 42px 40px 33px 40px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .root__analytics {
+    padding: 81px 103px 73px 104px;
+  }
+}

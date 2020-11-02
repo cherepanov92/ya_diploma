@@ -1,0 +1,22 @@
+.graph__title {
+  margin: 0 0 0 0;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+  color: #B6BCBF;
+  display: block;
+}
+
+@media screen and (min-width: 768px) {
+  .graph__title {
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .graph__title {
+  }
+}

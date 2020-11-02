@@ -1,0 +1,18 @@
+.graph__range {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .graph__range {
+    margin-left: 117px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .graph__range {
+    margin-left: 103px;
+  }
+}

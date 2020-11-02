@@ -1,0 +1,23 @@
+.footer__menu-item {
+    margin-left: 40px;
+    text-decoration: none;
+    color: #1A1B22;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+}
+
+@media screen and (max-width: 860px) {
+    .footer__menu-item {
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .footer__menu-item {
+        margin: 0;
+    }
+}

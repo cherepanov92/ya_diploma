@@ -1,0 +1,15 @@
+.root__breadcrumbs {
+}
+
+@media screen and (min-width: 768px) {
+  .root__breadcrumbs {
+    margin: 0;
+    padding: 15px 52px 15px 40px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .root__breadcrumbs {
+    padding: 23px 52px 23px 104px;
+  }
+}

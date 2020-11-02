@@ -1,0 +1,17 @@
+.client-info__title {
+  margin: 3px 0 0 0;
+}
+
+@media screen and (min-width: 768px) {
+  .client-info__title {
+
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .client-info__title {
+    margin: 11px 0 0 0;
+    font-size: 40px;
+    line-height: 46px;
+  }
+}
