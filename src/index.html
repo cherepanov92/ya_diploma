@@ -24,10 +24,12 @@
         <p class="search__subtitle">Введите в поиске любую тему и узнайте, насколько популярной она была в новостях за прошедшую неделю.</p>
         <form class="search__form search-form">
           <input class="search-form__input" type="text" placeholder="Введите тему новости">
+          <span class="search-form__error"></span>
           <button class="search-form__submit" type="submit">Искать</button>
         </form>
       </div>
     </header>
+    <!-- Контент -->
     <div class="content root__content">
       <div class="content__preloader">
         <i class="preloader"></i>
@@ -38,62 +40,33 @@
         <p class="bad_request__title">Ничего не найдено</p>
         <p class="bad_request__subtitle">К сожалению по вашему запросу ничего не найдено.</p>
       </div>
-      <div class="content__result-grid">
-        <h2 class="content__title title">Результаты поиска</h2>
-        <a class="content__link" href="./analytics.html">Посмотреть аналитику </a>
-        <div class="content__result-cards">
-          <div class="result-card">
-            <div class="result-card__image"></div>
-            <div class="result-card__content_block">
-              <p class="result-card__date">2 августа, 2019</p>
-              <h3 class="result-card__title">Национальное достояние – парки</h3>
-              <h4 class="comment result-card__subtitle">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться система национальных парков...</h4>
-              <a href="#" class="result-card__source">Лента.ру</a>
-            </div>
-          </div>
-          <div class="result-card">
-            <div class="result-card__image"></div>
-            <div class="result-card__content_block">
-              <p class="result-card__date">2 августа, 2019</p>
-              <h3 class="result-card__title">Национальное достояние – парки</h3>
-              <h4 class="comment result-card__subtitle">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться система национальных парков...</h4>
-              <a href="#" class="result-card__source">Лента.ру</a>
-            </div>
-          </div>
-          <div class="result-card">
-            <div class="result-card__image"></div>
-            <div class="result-card__content_block">
-              <p class="result-card__date">2 августа, 2019</p>
-              <h3 class="result-card__title">Национальное достояние – парки</h3>
-              <h4 class="comment result-card__subtitle">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться система национальных парков...</h4>
-              <a href="#" class="result-card__source">Лента.ру</a>
-            </div>
-          </div>
-          <div class="result-card">
-            <div class="result-card__image"></div>
-            <div class="result-card__content_block">
-              <p class="result-card__date">2 августа, 2019</p>
-              <h3 class="result-card__title">Национальное достояние – парки</h3>
-              <h4 class="comment result-card__subtitle">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться система национальных парков...</h4>
-              <a href="#" class="result-card__source">Лента.ру</a>
-            </div>
-          </div>
-          <div class="result-card">
-            <div class="result-card__image"></div>
-            <div class="result-card__content_block">
-              <p class="result-card__date">2 августа, 2019</p>
-              <h3 class="result-card__title">Национальное достояние – парки</h3>
-              <h4 class="comment result-card__subtitle">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться система национальных парков...</h4>
-              <a href="#" class="result-card__source">Лента.ру</a>
-            </div>
+
+      <template id="result-card-template">
+        <div class="result-card">
+          <img src="" class="result-card__image" alt="news poster">
+          <div class="result-card__content_block">
+            <p class="result-card__date">2 августа, 2019</p>
+            <h3 class="result-card__title">Национальное достояние – парки</h3>
+            <h4 class="comment result-card__subtitle">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться система национальных парков...</h4>
+            <a href="#" target="_blank" class="result-card__source">Лента.ру</a>
           </div>
         </div>
+      </template>
+
+      <div class="content__result-container">
+        <div>
+          <div class="content__result-grid">
+            <h2 class="content__title title">Результаты поиска</h2>
+            <a class="content__link" href="./analytics.html">Посмотреть аналитику </a>
+            <div class="content__result-cards">
+            </div>
+          </div>
+          <button class="content__button-more">Показать еще</button>
+        </div>
       </div>
-      <button class="content__button-more">Показать еще</button>
     </div>
     <!-- об авторе -->
     <div class="author root__author">
-      <!-- todo: alt -->
       <img class="author__avatar" src="<%=require('./images/avatar.png')%>" alt="author avatar">
       <h2 class="title author__title">Об авторе</h2>
       <p class="subtitle author__subtitle">Это блок с описанием автора проекта. Здесь следует указать, как вас зовут, чем вы занимаетесь, какими технологиями разработки владеете.Также можно рассказать о процессе обучения в Практикуме, чему вы тут научились, и чем можете помочь потенциальным заказчикам. Если хотите, оставьте свои контакты: email

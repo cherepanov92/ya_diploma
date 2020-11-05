@@ -3,18 +3,18 @@
   border-bottom-left-radius: 16px;
   border-bottom-right-radius: 16px;
   padding-bottom: 17px;
-  min-height: 232px;
+  min-height: 350px;
   position: relative;
 }
 
 @media screen and (min-width: 768px) {
   .result-card__content_block {
-    min-height: 255px;
+
   }
 }
 
 @media screen and (min-width: 1440px) {
   .result-card__content_block {
-    min-height: 285px;
+
   }
 }

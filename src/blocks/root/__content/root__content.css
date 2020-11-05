@@ -1,16 +1,16 @@
 .root__content {
-  padding: 10% 5% 14% 5%;
+  /* padding: 10% 5% 14% 5%; */
   position: relative;
 }
 
 @media screen and (min-width: 768px) {
   .root__content {
-    padding: 5% 5% 5% 5%;
+    /* padding: 5% 5% 5% 5%; */
   }
 }
 
 @media screen and (min-width: 1440px) {
   .root__content {
-    padding: 83px 104px 20px 104px;
+    /* padding: 83px 104px 20px 104px; */
   }
 }

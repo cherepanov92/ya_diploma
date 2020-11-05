@@ -6,12 +6,16 @@
   font-size: 22px;
   line-height: 26px;
   color: #1A1B22;
+  margin: 5% 5% 5px 5%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 92px;
 }
 
 @media screen and (min-width: 768px) {
   .result-card__title {
     margin: 0 8%;
-    line-height: 24px;
+    line-height: 26px;
   }
 }
 
@@ -20,6 +24,6 @@
     margin: 0 6%;
     line-height: 24px;
     font-size: 26px;
-    line-height: 30px;
+    line-height: 31px;
   }
 }
