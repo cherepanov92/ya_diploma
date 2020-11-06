@@ -35,7 +35,7 @@ module.exports = {
     entry: {
         main: './index.js',
         about: './about.js',
-        analytics: './analytics.js',
+        analytic: './analytics.js',
     },
     output: {
         filename: `scripts/${filename('js')}`,
@@ -114,29 +114,29 @@ module.exports = {
             filename: 'index.html',
             favicon: './images/favicon.ico',
             chunks: ['main'],
-            hash: true,
-            minify: {
-                collapseWhitespace: isProd
-            }
+            // hash: true,
+            // minify: {
+            //     collapseWhitespace: isProd
+            // }
         }),
         new HTMLWebpackPlugin({
             template: './about.html',
             filename: 'about.html',
             favicon: './images/favicon.ico',
             chunks: ['about'],
-            minify: {
-                collapseWhitespace: isProd
-            }
+            // minify: {
+            //    collapseWhitespace: isProd
+            // }
         }),
         new HTMLWebpackPlugin({
-          template: './analytics.html',
-          filename: 'analytics.html',
-          favicon: './images/favicon.ico',
-          chunks: ['analytics'],
-          minify: {
-              collapseWhitespace: isProd
-          }
-      }),
+            template: './analytics.html',
+            filename: 'analytics.html',
+            favicon: './images/favicon.ico',
+            chunks: ['analytic'],
+            // minify: {
+            //     collapseWhitespace: isProd
+            // }
+        }),
         new MiniCssExtractPlugin({
             filename: `./styles/${filename('css')}`
         }),

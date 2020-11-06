@@ -16,6 +16,7 @@
   .result-card__title {
     margin: 0 8%;
     line-height: 26px;
+    height: 80px;
   }
 }
 
@@ -25,5 +26,6 @@
     line-height: 24px;
     font-size: 26px;
     line-height: 31px;
+    height: 92px;
   }
 }

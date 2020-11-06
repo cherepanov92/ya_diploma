@@ -62,6 +62,7 @@ export default class SearchNews {
     const result_str = JSON.stringify(result.articles);
     localStorage.clear();
     localStorage.setItem('articles', result_str);
+    localStorage.setItem('total', result.totalResults);
     localStorage.setItem('query', query);
   }
 

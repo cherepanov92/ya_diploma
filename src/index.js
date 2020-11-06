@@ -7,5 +7,3 @@ import SearchNews from './js/search-news';
 const card_list = new NewsCardList(new NewsCard());
 const api_news = new NewsApi();
 const search_news = new SearchNews(card_list, api_news);
-
-search_news.onload();
