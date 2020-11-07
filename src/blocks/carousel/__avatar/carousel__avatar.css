@@ -1,0 +1,13 @@
+.carousel__avatar {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  margin-right: 16px;
+}
+
+@media screen and (max-width: 768px) {
+  .carousel__avatar {
+    width: 48px;
+    height: 48px;
+  }
+}

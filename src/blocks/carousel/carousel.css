@@ -1,11 +1,35 @@
-@import url('./__container/carousel__container.css');
-@import url('./__card/carousel__card.css');
-@import url('./__date/carousel__date.css');
-@import url('./__avatar/carousel__avatar.css');
-@import url('./__uname/carousel__uname.css');
-@import url('./__umail/carousel__umail.css');
-@import url('./__comment/carousel__comment.css');
+@import "./__text/carousel__text.css";
+@import "./__title/carousel__title.css";
+@import "./__link/carousel__link.css";
+@import "./__slider-container/carousel__slider-container.css";
+@import "./__slider/carousel__slider.css";
+@import "./__item/carousel__item.css";
+@import "./__date/carousel__date.css";
+@import "./__photo/carousel__photo.css";
+@import "./__avatar/carousel__avatar.css";
+@import "./__name/carousel__name.css";
+@import "./__email/carousel__email.css";
+@import "./__comment/carousel__comment.css";
+@import "./__buttons/carousel__buttons.css";
+@import "./__button/carousel__button.css";
+@import "./__button-big/carousel__button-big.css";
 
 .carousel {
+  background: #F5F6F7;
+  color: #1A1B22;
+  font-style: normal;
+  padding: 72px 0 65px;
+  position: relative;
+}
 
+@media screen and (max-width: 768px) {
+  .carousel {
+    padding: 33px 40px 26px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .carousel {
+    padding: 32px 16px;
+  }
 }

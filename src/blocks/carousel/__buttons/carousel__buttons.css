@@ -1,0 +1,17 @@
+.carousel__buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 24px;
+  box-sizing: border-box;
+  position: absolute;
+  top: 42%;
+  right: 0;
+  z-index: 3;
+}
+
+@media screen and (max-width: 768px) {
+  .carousel__buttons {
+    display: none;
+  }
+}

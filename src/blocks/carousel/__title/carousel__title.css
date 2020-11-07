@@ -1,0 +1,22 @@
+.carousel__title {
+  font-family: 'Roboto Slab', sans-serif;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 46px;
+  margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .carousel__title {
+    width: 336px;
+    font-size: 30px;
+    line-height: 34px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .carousel__title {
+    width: 200px;
+    line-height: 40px;
+  }
+}

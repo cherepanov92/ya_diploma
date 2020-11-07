@@ -21,7 +21,7 @@
       </nav>
     </header>
     <!-- Клиентам -->
-    <div class="client-info root__client-info white-bg">
+    <section class="client-info root__client-info white-bg">
       <h1 class="title client-info__title">
         Клиентам
       </h1>
@@ -41,9 +41,9 @@
         Проект был проверен экспертами Яндекс.Практикума. Если вашему бизнесу нужен сайт, мы рекомендуем обратиться к этому студенту.
       </p>
       </p>
-    </div>
+    </section>
     <!-- Технологии -->
-    <div class="technology root__technology">
+    <section class="technology root__technology">
       <h2 class="title technology__title">
         Используемые технологии
       </h2>
@@ -74,48 +74,52 @@
           <img class="technology__icon" src="<%=require('./images/technology/webpack.svg')%>"  alt="Webpack lable">
         </div>
       </div>
-    </div>
+    </section>
     <!-- Об авторе -->
-    <div class="author root__author">
+    <section class="author root__author">
       <!-- todo: alt -->
       <img class="author__avatar" src="<%=require('./images/avatar.png')%>" alt="author avatar">
       <h2 class="title author__title">Об авторе</h2>
       <p class="subtitle author__subtitle">Это блок с описанием автора проекта. Здесь следует указать, как вас зовут, чем вы занимаетесь, какими технологиями разработки владеете.Также можно рассказать о процессе обучения в Практикуме, чему вы тут научились, и чем можете помочь потенциальным заказчикам. Если хотите, оставьте свои контакты: email
         и телефон. Так заказчики смогут с вами связаться.</p>
-    </div>
-    <!-- История коммитов -->
-    <div class="git-history root__git-history">
-      <h2 class="title git-history__title">
-        История коммитов из GitHub
-      </h2>
-      <div class="carousel git-history__carousel">
-        <div class="carousel__container">
-          <div class="white-bg carousel__card">
-            <p class="carousel__date">14 августа, 2019</p>
-            <div class="author author-git carousel__author">
-              <img class="author__avatar author__avatar-git avatar" src="<%=require('./images/avatar.png')%>" alt="author avatar">
-              <div class="author__info">
-                <p class="author__title author__title-git">Антон Дмитриев</p>
-                <p class="author__subtitle author__subtitle-git">anton@yandex.ru</p>
-              </div>
-            </div>
-            <p class="carousel__comment">Emmet (formerly Zen Coding)
-              is a web-developer’s toolkit that can greatly improve your HTML & CSS workflow.
-            </p>
+    </section>
+    <!-- шаблон карточки коммита -->
+    <template id="git_card_temp">
+      <div class="carousel__item swiper-slide">
+        <p class="carousel__date">Дата</p>
+        <div class="carousel__photo">
+          <img src="" alt="фото" class="carousel__avatar">
+          <div class="carousel__name-info">
+            <h3 class="carousel__name">Имя Фамилия</h3>
+            <p class="carousel__email">e-mail</p>
           </div>
         </div>
-        <div class="pagination carousel__pagination">
-          <div class="pagination__icon pagination__icon-active"></div>
-          <div class="pagination__icon"></div>
-          <div class="pagination__icon"></div>
-          <div class="pagination__icon"></div>
-          <div class="pagination__icon"></div>
-        </div>
+        <p class="carousel__comment">
+          Коментарий
+        </p>
       </div>
-      <button class="btn git-history__btn">
-        Открыть в GitHub
-      </button>
-    </div>
+    </template>
+    <!-- История коммитов -->
+    <section class="git">
+      <div class="carousel__text">
+        <h2 class="carousel__title">История коммитов из GitHub</h2>
+        <a href="https://github.com/cherepanov92/ya_diploma" class="carousel__link" target="_blank">
+          Открыть в Github<span class="tick">❯</span>
+        </a>
+      </div>
+      <div class="carousel__slider-container">
+        <div class="swiper-container carousel__slider">
+          <div class="swiper-wrapper">
+          </div>
+
+          <div class="swiper-button-next carousel__button"><span class="tick">❯</span></div>
+          <div class="swiper-button-prev carousel__button"><span class="tick">❮</span></div>
+
+          <div class="swiper-pagination carousel__pagination"></div>
+        </div>
+        <button type="button" class="carousel__button-big">Открыть в GitHub</button>
+      </div>
+    </section>
     <!-- Подвал -->
     <footer class="white-bg footer">
       <p class="footer__copyright">© 2020 Артём Черепанов</p>

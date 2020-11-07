@@ -1,0 +1,5 @@
+.carousel__slider-container {
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
