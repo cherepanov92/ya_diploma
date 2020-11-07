@@ -47,6 +47,7 @@
     "babel-polyfill": "6.26.0",
     "core-js": "3.4.1",
     "moment": "^2.29.1",
-    "normalize.css": "8.0.1"
+    "normalize.css": "8.0.1",
+    "swiper": "5.4.5"
   }
 }

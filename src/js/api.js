@@ -20,6 +20,22 @@ export class NewsApi {
         return result.json();
       }
       return Promise.reject(`статус ответа - ${result.status}`);
-    })
+    });
+  }
+}
+
+export class GitApi {
+  constructor() {
+    this.base_url = 'https://api.github.com/repos/cherepanov92/ya_diploma/commits';
+  }
+
+  getCommits() {
+    return fetch(this.base_url)
+    .then(res => {
+      if (res.ok) {
+        return res.json();
+      }
+      return Promise.reject(`статус ответа - ${res.status}`);
+    });
   }
 }

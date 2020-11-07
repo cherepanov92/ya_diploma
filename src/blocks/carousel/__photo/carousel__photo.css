@@ -1,0 +1,10 @@
+.carousel__photo {
+  display: flex;
+  margin-top: 16px
+}
+
+@media screen and (max-width: 375px) {
+  .carousel__photo {
+    margin-top: 8px
+  }
+}

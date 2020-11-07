@@ -1,9 +1,7 @@
-.carousel__date {
+.carousel__email {
   font-family: 'Roboto Regular', sans-serif;
-  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 22px;
-  color: #B6BCBF;
-  margin: 0;
+  margin: 2px 0 0;
 }
